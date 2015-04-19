@@ -1,0 +1,31 @@
+{
+  "name": "ostet-resources",
+  "version": "0.0.0",
+  "description": "Resources for the Open-Source Team Entry Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find test/* -name '*.test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findhit/ostet-resources.git"
+  },
+  "keywords": [
+    "resources",
+    "ostet",
+    "open",
+    "source",
+    "team",
+    "entry",
+    "test"
+  ],
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "bugs": {
+    "url": "https://github.com/findhit/ostet-resources/issues"
+  },
+  "homepage": "https://github.com/findhit/ostet-resources",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  }
+}
